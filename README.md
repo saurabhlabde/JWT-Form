@@ -1,2 +1,2 @@
 # JWT-Form
-JWT form make using express-js, react-js, mongodb
+JWT form made using express-js, react-js, mongodb
