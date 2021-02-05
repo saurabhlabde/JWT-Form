@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  height: 80px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px;
+}
+
+nav * {
+  color: #ffffff;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav ul .hello_user p {
+  text-transform: capitalize;
+}
+
+nav ul .li_h {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+nav ul .li_h a {
+  display: block;
+}
+
+nav ul .li_h:hover {
+  border-bottom: 1px solid #fff;
+}
+
+nav ul li {
+  padding: 0 30px;
+}
+
+nav ul .logo_text {
+  font-size: 1.5em;
+}
+
+nav ul .logo_text a {
+  font-weight: 500;
+}
+
+.home_sec {
+  height: 80vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home_sec h1 {
+  color: #000;
+  font-size: 2em;
+}
+
+.rl_f {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.rl_f .rl_h {
+  font-size: 1.7em;
+  font-weight: 500;
+  line-height: 2em;
+  padding: 1em 0;
+}
+
+.rl_f .rl_i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rl_f .rl_i input {
+  padding: 1em;
+  margin: 1em 0;
+  font-size: 1em;
+  font-weight: 400;
+  color: #000;
+}
+
+.rl_f .rl_i button {
+  padding: 1em;
+  margin: 1em 0;
+  color: #fff;
+  background-color: #000;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rl_f p > a {
+  color: orange;
+}
+
+.rl_f .hn_a {
+  padding: 1em 0;
+}
+
+.btl {
+  padding: 2em 0;
+}
+/*# sourceMappingURL=index.css.map */
